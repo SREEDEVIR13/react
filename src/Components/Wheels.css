@@ -1,0 +1,77 @@
+/* import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");  */
+ .Pop-Up{
+ 
+  display: flex;
+  font-family: "Nunito", sans-serif;
+}
+.openModalBtn{
+    margin: auto;
+}
+.ImageClassRegister{
+    margin: auto;
+    border-radius:60% ;
+}
+.AddVehicleClass{
+    margin: auto;
+}
+.Pop-Up .openModalBtn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+}
+.submitBtn{
+  background-color: rgb(218, 121, 11);
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  color: white;
+}
+.submitBtn:hover{
+  background: rgb(0, 212, 212);
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  color: white;
+}
+/* .submitBtn :hover {
+  background: rgb(0, 212, 212);
+  border-radius: 4px;
+  transition: all 0.2s ease-out; */
+
+.Pop-Up .openModalBtn:hover {
+  background: rgb(0, 212, 212);
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.Buttons{
+  display: flex;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.form-Input-Register{
+    padding: 2%;
+}
+.card{
+    max-width: 340px;
+    margin: 10px auto 0 auto;
+    padding: 10px 0;
+    box-shadow: 0 2px 6px #555;
+    border-radius: 25px;
+  } 
+
+.card-body{
+    height: fit-content;
+}
+
+
+  form {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+  }
